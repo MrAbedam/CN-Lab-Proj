@@ -13,6 +13,14 @@ gateway: 192.168.7.129
 usable-range: 192.168.7.130 <-> 192.168.7.254 (255 is broadcast) (128)
 
 ____
+AP
+
+AP: S2ID:S2password
+___
+iot monitor
+
+iotS2: S2:S2
+____
 
 dhcp server : 192.168.5.200
 dns server  : 192.168.5.201
