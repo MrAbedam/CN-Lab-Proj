@@ -1,0 +1,42 @@
+4 floor
+
+1F
+id: 192.168.5.0 /24
+subnet: 255.255.255.0
+gateway: 192.168.5.1
+usable-range: 192.168.5.2 <-> 192.168.5.254 (255 is broadcast) (256)
+
+____
+
+dhcp server : 192.168.5.200
+dns server  : 192.168.5.201
+web server  : 192.168.5.202
+iot server  : 192.168.5.203
+
+iotF1: F1:F1
+____
+
+
+2F
+id: 192.168.6.0 /25
+subnet: 255.255.255.128
+gateway: 192.168.6.1
+usable-range: 192.168.6.2 <-> 192.168.6.126 (127 is broadcast) (128)
+
+
+3F
+id: 192.168.6.128 /26
+subnet: 255.255.255.192
+gateway: 192.168.6.129
+usable-range: 192.168.6.130 <-> 192.168.6.190 (191 is broadcast) (64)
+
+4F:
+id: 192.168.6.192 / 27
+subnet: 255.255.255.224
+gateway: 192.168.6.193
+usable-range: 192.168.6.194 <-> 192.168.6.222 (223 is broadcast) (32)
+
+
+APF4: F4ID:F4password
+
+APF1: F1ID:F1password
