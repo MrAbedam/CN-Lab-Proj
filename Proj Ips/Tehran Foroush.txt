@@ -11,3 +11,10 @@ id: 192.168.7.128 /25
 subnet: 255.255.255.128
 gateway: 192.168.7.129
 usable-range: 192.168.7.130 <-> 192.168.7.254 (255 is broadcast) (128)
+
+____
+
+dhcp server : 192.168.5.200
+dns server  : 192.168.5.201
+web server  : 192.168.5.202
+iot server  : 192.168.5.203

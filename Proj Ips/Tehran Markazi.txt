@@ -1,3 +1,14 @@
+
+dhcp server : 192.168.5.200
+dns server  : 192.168.5.201
+web server  : 192.168.5.202
+iot server  : 192.168.5.203
+
+iotF1: F1:F1
+
+
+_________
+
 4 floor
 
 1F
@@ -6,15 +17,7 @@ subnet: 255.255.255.0
 gateway: 192.168.5.1
 usable-range: 192.168.5.2 <-> 192.168.5.254 (255 is broadcast) (256)
 
-____
 
-dhcp server : 192.168.5.200
-dns server  : 192.168.5.201
-web server  : 192.168.5.202
-iot server  : 192.168.5.203
-
-iotF1: F1:F1
-____
 
 
 2F
@@ -40,3 +43,4 @@ usable-range: 192.168.6.194 <-> 192.168.6.222 (223 is broadcast) (32)
 APF4: F4ID:F4password
 
 APF1: F1ID:F1password
+

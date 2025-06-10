@@ -1,0 +1,7 @@
+Router-Tehran-Markaz:
+ip: 192.168.6.230
+sm: 255.255.255.240
+
+Router-Tehran-Foroush
+ip: 192.168.6.231
+sm: 255.255.255.240
