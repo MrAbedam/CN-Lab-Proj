@@ -3,7 +3,7 @@ dhcp server : 192.168.5.200
 dns server  : 192.168.5.201
 web server  : 192.168.5.202
 iot server  : 192.168.5.203
-
+HG4         : 192.168.6.230
 
 
 _________
@@ -41,11 +41,13 @@ usable-range: 192.168.6.194 <-> 192.168.6.222 (223 is broadcast) (32)
 _____
 
 AP
-
-APF4: F4ID:F4password
+HGF4: F4ID:F4password
+APF3: F3ID:F3password
 APF1: F1ID:F1password
 
+HG4 : 192.168.6.230
 ___
 iot monitor
 
-iotF1: F1:F1
+iotF1: F1:F1 (through IOT server ip 192.168.6.203)
+iotF4: F4:F4 (through HG ip 192.168.6.230)
