@@ -1,4 +1,7 @@
 
+first floor
+DHCP: 192.168.8.2
+
 Saveh1:
 id: 192.168.8.0 / 26
 def gateway: 192.168.8.1
