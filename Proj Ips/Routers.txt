@@ -1,9 +1,22 @@
-Router-Tehran-Markaz AND Tehran Foroush:
-ip: 192.168.6.230 markaz
-ip: 192.168.6.231 foroush
+TehranSales <=> TehranMarkazi
+ip: 192.168.10.2 markaz SE2
+ip: 192.168.10.1 foroush SE2
 sm: 255.255.255.252
 
 
-Router-Saveh 
-ip: 192.168.6.232
-sm: 255.255.255.240
+SavehFactory <=> TehranMarkazi
+ip: 192.168.10.6 markaz SE3
+ip: 192.168.10.5 saveh SE2
+sm: 255.255.255.252
+
+
+Varamin <=> TehranMarkazi
+ip: 192.168.10.10 markaz SE6
+ip: 192.168.10.9 varamin SE2
+sm: 255.255.255.252
+
+
+Ghom <=> TehranMarkazi
+ip: 192.168.10.14 markaz SE7
+ip: 192.168.10.13 Ghom SE2
+sm: 255.255.255.252
