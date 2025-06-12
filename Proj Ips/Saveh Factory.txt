@@ -8,6 +8,13 @@ def gateway: 192.168.8.1
 subnetmask: 255.255.255.192
 usable range: 192.168.8.2 <-> 192.168.8.62 (broadcast is 63) (64)
 
+IOT SULEH1
+HG lan   : 192.168.8.194
+HG subnet: 255.255.255.248 (8) 
+
+IOT SULEH2
+HG lan   : 192.168.8.202
+HG subnet: 255.255.255.248 (8) 
 
 Saveh2:
 id: 192.168.8.64 / 26
@@ -20,6 +27,5 @@ id: 192.168.8.128 / 26
 def gateway: 192.168.8.129
 subnetmask: 255.255.255.192
 usable range: 192.168.8.130 <-> 192.168.8.190 (broadcast is 191) (64)
-
 
 
