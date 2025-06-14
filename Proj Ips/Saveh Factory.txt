@@ -16,6 +16,16 @@ IOT SULEH2
 HG lan   : 192.168.8.202
 HG subnet: 255.255.255.248 (8) 
 
+IOT SULEH2
+HG lan   : 192.168.8.210
+HG subnet: 255.255.255.248 (8) 
+
+MONITOR ENTER:
+SULEH1: 192.168.8.194 admin:admin
+SULEH2: 192.168.8.202 admin:admin
+SULEH3: 192.168.8.210 admin:admin
+
+
 Saveh2:
 id: 192.168.8.64 / 26
 def gateway: 192.168.8.65

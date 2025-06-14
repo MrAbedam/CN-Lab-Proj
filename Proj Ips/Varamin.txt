@@ -3,9 +3,13 @@ Varamin
 ID     : 192.168.8.248
 gateway: 192.168.8.249
 subnet : 255.255.255.248
-usable range: 192.168.8.250 <=> 192.168.8.255
+usable range: 192.168.8.250 <=> 192.168.8.254 (255 is broadcast) (6)
 
 DHCP:
 192.168.8.250
 
+
+ESTESNA REMOTE
+IOT PASSWORD
+192.168.5.203
 V1:V1
